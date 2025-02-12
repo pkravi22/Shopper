@@ -14,7 +14,7 @@ const Footer = () => {
       <span className='text-2xl tracking-[4px] md:tracking-[6px]'>Shopper</span>
     </div>
 
-    <div className=' w-1/3 z-10 my-auto justify-center'>
+    <div className=' w-1/3 z-10 my-auto justify-center m mx-auto'>
       <ul className='flex flex-col justify-center items-center text-lg text-white'>
         <Link to="/men" className='underline'>Men</Link>
         <Link to="/women" className='underline'>Women</Link>
