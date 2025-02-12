@@ -66,13 +66,7 @@ const Navbar = () => {
               <NavLink to="/login">
                 <button onClick={handleNavLinkClick}>Login</button>
               </NavLink>
-              <NavLink to="/">
-              <input
-                type="text"
-                placeholder="Search"
-                className="md: px-2 sm:px-4 py-1 w-[100px] rounded-3xl border"
-              />
-            </NavLink>
+              
           </div>
         </div>
 

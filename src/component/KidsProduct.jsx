@@ -11,7 +11,7 @@ const Kids = () => {
   const {addTocart} = useContext(productContext);
   return (
     <>
-      <div className=" w-screen py-8 px-4 flex flex-col justify-center items-center">
+      <div className=" w-screen py-6 px-4 flex flex-col justify-center items-center">
         <div className="text-2xl text-center pt-8 my-8 border-b-2">
           Populer In Kids
         </div>

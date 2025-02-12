@@ -13,7 +13,7 @@ const ProductContextProvider = ({ children }) => {
         localStorage.removeItem('products');
       }
     }
-    return [{ name: "black-Tshirt", new_price: "100" }];
+  return [{}];
   });
 
   useEffect(() => {
@@ -21,12 +21,11 @@ const ProductContextProvider = ({ children }) => {
   }, [products]);
 
   const addTocart = (product) => {
-    console.log(product);
-    console.log("product added");
+    alert("product added")
     setProducts([...products, product]);
   };
  const removeItem=(id)=>{
-    console.log("removal")
+   alert("Clicked to remove Product")
     setProducts(products.filter((product) => product.id !== id));
  }
   return (
