@@ -10,12 +10,7 @@ const NewCollection = () => {
       <div className="text-2xl text-center pt-8 my-8 border-b-2">
         New Collection
       </div>
-      <div>
-        <select name="" id="">
-            <option value="">Select Category</option>
-  
-        </select>
-      </div>
+      <div></div>
 
       <div className="grid    grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 justify-center items-center mx-auto gap-4 px-8  ">
         {new_collections.map((product, index) => (
@@ -30,9 +25,9 @@ const NewCollection = () => {
               <p className="text-green-500 font-bold text-md">
                 ${product.new_price}
               </p>
-              <button className="p-2" onClick={()=>addTocart(product)}>
-                                <img src={cart} alt="" className="w-[30px] cursor-pointer" />
-                              </button>
+              <button className="p-2" onClick={() => addTocart(product)}>
+                <img src={cart} alt="" className="w-[30px] cursor-pointer" />
+              </button>
             </div>
           </div>
         ))}
